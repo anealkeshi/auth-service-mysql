@@ -8,9 +8,9 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @EnableAutoConfiguration
 @ComponentScan
-public class SimpleAuthServiceApp {
+public class MysqlAuthServiceApp {
 
   public static void main(String[] args) {
-    SpringApplication.run(SimpleAuthServiceApp.class, args);
+    SpringApplication.run(MysqlAuthServiceApp.class, args);
   }
 }
