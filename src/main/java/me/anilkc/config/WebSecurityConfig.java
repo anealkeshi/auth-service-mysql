@@ -1,4 +1,4 @@
-package com.anilkc.config;
+package me.anilkc.config;
 
 import javax.annotation.Resource;
 import javax.sql.DataSource;
@@ -13,12 +13,12 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 
-import com.anilkc.config.handler.CustomAccessDeniedHandler;
-import com.anilkc.config.handler.CustomAuthenticationEntryPoint;
-import com.anilkc.config.handler.CustomLoginFailureHandler;
-import com.anilkc.config.handler.CustomLoginSuccessfulHandler;
-import com.anilkc.config.handler.CustomLogoutSuccessfulHandler;
-import com.anilkc.service.CustomUserDetailsService;
+import me.anilkc.config.handler.CustomAccessDeniedHandler;
+import me.anilkc.config.handler.CustomAuthenticationEntryPoint;
+import me.anilkc.config.handler.CustomLoginFailureHandler;
+import me.anilkc.config.handler.CustomLoginSuccessfulHandler;
+import me.anilkc.config.handler.CustomLogoutSuccessfulHandler;
+import me.anilkc.service.CustomUserDetailsService;
 
 @Configuration
 @EnableWebSecurity

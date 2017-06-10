@@ -1,4 +1,4 @@
-package com.anilkc.config.handler;
+package me.anilkc.config.handler;
 
 import java.io.IOException;
 
